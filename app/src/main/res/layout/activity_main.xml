@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/room_B01"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:text="B01"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/room_104" />
+
+    <Button
+        android:id="@+id/room_101"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="80dp"
+        android:text="101"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/room_102"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/room_102"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="80dp"
+        android:text="102"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/room_103"
+        app:layout_constraintStart_toEndOf="@+id/room_101" />
+
+    <Button
+        android:id="@+id/room_103"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="80dp"
+        android:text="103"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/room_104"
+        app:layout_constraintStart_toEndOf="@+id/room_102" />
+
+    <Button
+        android:id="@+id/room_104"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="80dp"
+        android:text="104"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/room_103" />
+
+    <Button
+        android:id="@+id/room_201"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="30dp"
+        android:text="201"
+        app:layout_constraintBottom_toTopOf="@+id/room_101"
+        app:layout_constraintEnd_toStartOf="@+id/room_202"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/room_202"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="30dp"
+        android:text="202"
+        app:layout_constraintBottom_toTopOf="@+id/room_102"
+        app:layout_constraintEnd_toStartOf="@+id/room_203"
+        app:layout_constraintStart_toEndOf="@+id/room_201" />
+
+    <Button
+        android:id="@+id/room_203"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="30dp"
+        android:text="203"
+        app:layout_constraintBottom_toTopOf="@+id/room_103"
+        app:layout_constraintEnd_toStartOf="@+id/room_204"
+        app:layout_constraintStart_toEndOf="@+id/room_202" />
+
+    <Button
+        android:id="@+id/room_204"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="30dp"
+        android:text="204"
+        app:layout_constraintBottom_toTopOf="@+id/room_104"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/room_203" />
+
+    <Button
+        android:id="@+id/room_301"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="30dp"
+        android:text="301"
+        app:layout_constraintBottom_toTopOf="@+id/room_201"
+        app:layout_constraintEnd_toStartOf="@+id/room_302"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/room_302"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="30dp"
+        android:text="302"
+        app:layout_constraintBottom_toTopOf="@+id/room_202"
+        app:layout_constraintEnd_toStartOf="@+id/room_303"
+        app:layout_constraintStart_toEndOf="@+id/room_301" />
+
+    <Button
+        android:id="@+id/room_303"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="30dp"
+        android:text="303"
+        app:layout_constraintBottom_toTopOf="@+id/room_203"
+        app:layout_constraintEnd_toStartOf="@+id/room_304"
+        app:layout_constraintStart_toEndOf="@+id/room_302" />
+
+    <Button
+        android:id="@+id/room_304"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+        android:layout_marginBottom="30dp"
+        android:text="304"
+        app:layout_constraintBottom_toTopOf="@+id/room_204"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/room_303" />
+
+    <Button
+        android:id="@+id/room_401"
+        android:layout_width="210dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="30dp"
+        android:text="401"
+        app:layout_constraintBottom_toTopOf="@+id/room_303"
+        app:layout_constraintEnd_toStartOf="@+id/room_402" />
+
+    <Button
+        android:id="@+id/room_402"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="402"
+        app:layout_constraintBottom_toTopOf="@+id/room_304"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/room_501"
+        android:layout_width="65dp"
+        android:layout_height="41dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="501"
+        app:layout_constraintBottom_toTopOf="@+id/room_402"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="추가하기"
+        app:layout_constraintEnd_toStartOf="@+id/room_B01"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="664dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
